@@ -2143,6 +2143,8 @@ export default {
     executeMode: "Modalità Esecuzione (Cmd+Enter)",
     executeModeAll: "Esegui tutto l'SQL",
     executeModeCurrent: "Esegui istruzione al cursore",
+    showExecutionTargetPicker: "Mostra selettore destinazione",
+    showExecutionTargetPickerDescription: "Se attivo, l'esecuzione senza selezione permette di scegliere tra istruzione corrente e tutto l'SQL.",
     wordWrap: "A capo automatico",
     wordWrapDescription: "Incolonna le righe SQL lunghe entro la larghezza dell'editor",
     confirmDangerousSqlExecution: "Conferma prima di SQL pericoloso",

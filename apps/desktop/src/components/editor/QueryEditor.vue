@@ -319,6 +319,12 @@ function requestExecute() {
   const cursorPos = selection.head;
   const candidates = buildExecutionCandidates(doc, cursorPos, props.databaseType);
   if (candidates.length === 0) return false;
+  if (!settingsStore.editorSettings.showExecutionTargetPicker) {
+    const preferredKind = settingsStore.editorSettings.executeMode === "current" ? "cursor" : "all";
+    const candidate = candidates.find((item) => item.kind === preferredKind) ?? candidates[0];
+    emit("execute", candidate.sql);
+    return true;
+  }
   closePicker();
   pickerCandidates.value = candidates;
   pickerActiveIndex.value = 0;

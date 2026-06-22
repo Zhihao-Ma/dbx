@@ -2432,6 +2432,8 @@ export default {
     executeMode: "执行模式 (Cmd+Enter)",
     executeModeAll: "执行全部 SQL",
     executeModeCurrent: "执行光标所在语句",
+    showExecutionTargetPicker: "显示执行目标选择器",
+    showExecutionTargetPickerDescription: "开启后，无选区执行时可在当前语句和全部 SQL 之间临时选择。",
     wordWrap: "自动换行",
     wordWrapDescription: "长 SQL 在编辑器宽度内自动折行显示",
     confirmDangerousSqlExecution: "执行危险 SQL 前弹出确认",

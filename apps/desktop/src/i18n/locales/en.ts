@@ -2408,6 +2408,8 @@ export default {
     executeMode: "Execute Mode (Cmd+Enter)",
     executeModeAll: "Execute all SQL",
     executeModeCurrent: "Execute statement at cursor",
+    showExecutionTargetPicker: "Show execution target picker",
+    showExecutionTargetPickerDescription: "When enabled, running without a selection lets you choose between the current statement and all SQL.",
     wordWrap: "Word wrap",
     wordWrapDescription: "Wrap long SQL lines within the editor width",
     confirmDangerousSqlExecution: "Confirm before dangerous SQL",

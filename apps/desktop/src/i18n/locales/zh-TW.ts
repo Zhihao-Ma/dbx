@@ -2190,6 +2190,8 @@ export default {
     executeMode: "執行模式 (Cmd+Enter)",
     executeModeAll: "執行全部 SQL",
     executeModeCurrent: "執行指標所在語句",
+    showExecutionTargetPicker: "顯示執行目標選擇器",
+    showExecutionTargetPickerDescription: "啟用後，無選取執行時可在目前語句與全部 SQL 之間臨時選擇。",
     wordWrap: "自動換行",
     wordWrapDescription: "長 SQL 在編輯器寬度內自動折行顯示",
     confirmDangerousSqlExecution: "執行危險 SQL 前彈出確認",

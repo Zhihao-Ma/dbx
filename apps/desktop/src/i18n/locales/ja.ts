@@ -2362,6 +2362,8 @@ export default {
     executeMode: "実行モード (Cmd+Enter)",
     executeModeAll: "すべてのSQLを実行",
     executeModeCurrent: "カーソル位置の文を実行",
+    showExecutionTargetPicker: "実行対象ピッカーを表示",
+    showExecutionTargetPickerDescription: "有効にすると、選択なしで実行するときに現在の文とすべてのSQLを一時的に選べます。",
     wordWrap: "折り返し",
     wordWrapDescription: "長いSQL行をエディタ幅内で折り返します",
     confirmDangerousSqlExecution: "危険なSQLの前に確認",
